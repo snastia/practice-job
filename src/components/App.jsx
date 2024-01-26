@@ -1,5 +1,5 @@
 import { Choice } from "Sticker/Choice";
-import { Sticker } from "Sticker/Sticker";
+// import { Sticker } from "Sticker/Sticker";
 import { StickersList } from "Sticker/StickersList";
 import stickerData from "../stickerData.json"
 import { Component } from "react";

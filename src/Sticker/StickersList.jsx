@@ -1,13 +1,14 @@
 import {Sticker} from "./Sticker"
+import {List} from "./StickersList.styled"
 
 export function StickersList({stickerData, handleChange}){
     return(
-        <ul>
+        <List>
             {stickerData.map((sticker) => {
                 return(
                     <Sticker key={handleChange} img={sticker.img} label={sticker.label}/>
                 )
             })}
-        </ul>
+        </List>
     )
 }
